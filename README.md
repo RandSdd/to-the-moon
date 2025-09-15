@@ -1,4 +1,4 @@
 # to-the-moon
-where now I put my exercise files
-offically begins on September 15th
+where now I put my exercise files.
+offically begins on September 15th.
 :)
