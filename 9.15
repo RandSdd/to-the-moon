@@ -6,7 +6,7 @@ Analyze user input for specific keywords.
 """
 
 games_list = []
-print('tell me what game do you like?(Enter "quit" to quit))')
+print('tell me what game do you like?(Enter "quit" to quit)')
 while True:
     game = input().strip()
     if game.lower() == 'quit':
