@@ -1,2 +1,4 @@
 # to-the-moon
-something_normal
+where now I put my exercise files
+offically begins in September 15th
+:)
