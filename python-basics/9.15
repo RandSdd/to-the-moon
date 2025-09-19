@@ -1,0 +1,28 @@
+"""
+This module contains practice scripts for easy data processing.
+The purpose of this script is to demonstrate the use of while loops
+and break statements for handling user input.
+Analyze user input for specific keywords.
+"""
+
+games_list = []
+print('tell me what game do you like?(Enter "quit" to quit)')
+while True:
+    game = input().strip()
+    if game.lower() == 'quit':
+         break
+    if game:
+         games_list.append(game)
+         print(f'{game}? Tasteful!')
+    else:
+        print('please enter a valid game or enter "quit" to quit')
+n = '\n'
+if games_list:
+        print(f"\n--- Your favourite games are below --- \n\
+{n.join(games_list)}")
+if any(k in game.lower()
+       for game in games_list
+       for k in ['ac', 'assassin', 'to the moon', 'witch', 'limbus']):
+    print('Great taste!!')
+#I've learned f-string,any(),jump to the next line based on \,break,while,gener-
+#ator expression

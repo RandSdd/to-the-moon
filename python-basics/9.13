@@ -1,0 +1,7 @@
+PaPas_hotdog = ('hotdog','carrot','as','ddd','www')
+for food in PaPas_hotdog:
+  print(food)
+print('the menu now has been updated')
+PaPas_hotdog = ('hotdog','carrot','as','nfjr','qqwe')
+for food in PaPas_hotdog:
+  print(food)
