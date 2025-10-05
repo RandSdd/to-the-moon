@@ -40,8 +40,8 @@ jupyter notebook LR_Titanic.ipynb
 
 3. Results(to be filled)
 | Model               | Accuracy | Precision | Recall | F1-score |
-|---------------------|----------|-----------|--------|----------|
-| Logistic Regression | 0.763    | --        | --     | --       |
+|---------------------|:--------:|:---------:|:------:|:--------:|
+| Logistic Regression | 0.763    |    --     |  --    |   --     |
 
 Note: The code uses random_state=42 for data splitting and model 
 initialization to ensure reproducible results.
