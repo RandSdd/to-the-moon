@@ -39,6 +39,7 @@ Option 2 – Jupyter Notebook
 jupyter notebook LR_Titanic.ipynb
 
 3. Results(to be filled)
+
 | Model               | Accuracy | Precision | Recall | F1-score |
 |---------------------|:--------:|:---------:|:------:|:--------:|
 | Logistic Regression | 0.763    |    --     |  --    |   --     |
